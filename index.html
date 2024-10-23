@@ -4,37 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colloscope</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Colloscope de Colles</h1>
-        <div id="week-selector">
-            <label for="week">Choisir une semaine :</label>
-            <select id="week">
-                <!-- Options seront générées dynamiquement -->
-            </select>
-        </div>
-        <div id="colloscope-table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Semaine</th>
-                        <th>Groupe</th>
-                        <th>Matière</th>
-                        <th>Colleurs</th>
-                        <th>Jour</th>
-                        <th>Heure</th>
-                        <th>Salle</th>
-                    </tr>
-                </thead>
-                <tbody id="colloscope-body">
-                    <!-- Contenu généré dynamiquement -->
-                </tbody>
-            </table>
-        </div>
-    </div>
-    
+    <h1>Colloscope</h1>
+
+    <label for="week">Sélectionne une semaine :</label>
+    <select id="week">
+        <!-- Les options seront ajoutées par JavaScript -->
+    </select>
+
+    <table id="colloscope-table">
+        <thead>
+            <tr>
+                <th>Semaine</th>
+                <th>Groupe</th>
+                <th>Matière</th>
+                <th>Colleurs</th>
+                <th>Jour</th>
+                <th>Heure</th>
+                <th>Salle</th>
+            </tr>
+        </thead>
+        <tbody id="colloscope-body">
+            <!-- Le corps du tableau sera ajouté par JavaScript -->
+        </tbody>
+    </table>
+
     <script src="script.js"></script>
 </body>
 </html>
