@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colloscope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Colloscope de Colles</h1>
+        <div id="week-selector">
+            <label for="week">Choisir une semaine :</label>
+            <select id="week">
+                <!-- Options seront générées dynamiquement -->
+            </select>
+        </div>
+        <div id="colloscope-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semaine</th>
+                        <th>Groupe</th>
+                        <th>Matière</th>
+                        <th>Colleurs</th>
+                        <th>Jour</th>
+                        <th>Heure</th>
+                        <th>Salle</th>
+                    </tr>
+                </thead>
+                <tbody id="colloscope-body">
+                    <!-- Contenu généré dynamiquement -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
